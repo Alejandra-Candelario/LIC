@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Registro WEB</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/web.css" />
+<script type="text/javascript" src="js/registroWeb.js"></script>
+<!-- Para las versiones anteriores -->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <div class="container">
+    <section class="tabblue">
+    <ul class="tabs blue">
+    <li>
+    <input name="tabs blue" id="tab1" checked="" type="radio">
+    <label for="tab1">Registrar Cuenta</label>
+    <div id="tab-content1" class="tab-content">
+    <p>
+    Ingresa los siguientes datos para completar tu registro.
+    </p>
+    <form name="frmmat" id="pais">
+    <!-- <form name="register" action=""> -->
+
+<span class="tabaddon"><i class="fa fa-user fa-2x"></i></span>
+<input type="text" name="txtname" id="txtname" required="required" placeholder="(Su nombre)" class="field" />
+<span class="tabaddon"><i class="fa fa-envelope fa-2x"></i></span>
+<input type="text" name="txtlastname" id="txtlastname" required="required" placeholder="(Su apellido)" class="field" />
+<!--<input type="text" name="txtlastname2" id="txtlastname2" required="required" placeholder="(Su segundo apellido)" class="field" />-->
+
+<span class="tabaddon"><i class="far fa-envelope"></i></span>
+<input type="text" name="txtemail" id="txtemail" required="required" placeholder="(Email)" class="field" />
+<span class="tabaddon"><i class="fas fa-unlock-alt"></i></span>
+<input type="text" name="txtpassword" id="txtpassword" required="required" placeholder="(Password)" class="field" />
+
+
+<span class="tabaddon"><i class="fas fa-globe-americas"></i></span>
+<select name="seldegree" id="seldegree">
+<option disabled="" selected="" value="0">(Pais)</option>
+<option value="EL Salvador">EL Salvador</option>
+<option value="Honduras">Honduras</option>
+<option value="Guatemala">Guatemala</option>
+<option value="Nicaragua">Nicaragua</option>
+<option value="Estados Unidos">Estados Unidos</option>
+<option value="España">España</option>
+<option value="Corea del Sur">Corea del Sur</option>
+<option value="Brasil">Brasil</option>
+<option value="Alemania">Alemania</option>
+<option value="Costa Rica">Costa Rica</option>
+<option value="Colombia">Colombia</option>
+<option value="Barbados">Barbados</option>
+<option value="India">India</option>
+<option value="Grecia">Grecia</option>
+</select>
+<div class="btn">
+<input type="button" name="btnSubmit" id="btnSubmit" value="Submit" />
+</div>
+</form>
+</div>
+</li>
+</ul>
+</section>
+</div>
+
+</body>
+</html>

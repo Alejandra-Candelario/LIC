@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Registro de Numeros</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/num.css" />
+<script type="text/javascript" src="js/numeros.js"></script>
+<script src="js/charts.js"></script>
+
+</head>
+
+<body>
+    
+    <div class="containerDatos" id="containerDatos">
+        <p class="lead">Ingrese los numeros</p>
+        <form>
+            
+            <input id="numero" type="number" placeholder="Ingrese el numero" class="form">
+            <button id="boton" class="btn btn-success" type="reset" onclick="capturar();">Agregar</button>
+            <button id="btngrafica" class="btngrafica" type="button" onclick="grafica();">Grafica</button>
+        </form>
+    </div><br>
+
+    <div class="container" id="container">
+        <table class="table" id="tabla">
+        <thead class="thead-inverse">
+            <tr>
+                <th>Numeros</th>
+                
+            </tr>
+        </thead>
+        
+        </table>
+    </div><br><br><br>
+    
+    <div  class="chart-container">
+        <canvas id="myChart" ></canvas>
+    </div>
+
+</body>
+
+</html>
